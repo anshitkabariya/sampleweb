@@ -1,0 +1,455 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    padding: 4px;
+    margin: -20px;
+    overflow-x: hidden;
+}
+
+/* header section*/
+.home {
+
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+}
+
+.home h2 {
+    color: #1F2B6C;
+    display: inline-block;
+    padding-left: 245px;
+    padding-top: 6px;
+    font-family: 'Yeseva One';
+}
+
+.home h2 span {
+    color: #159EEC;
+    font-family: 'Yeseva One';
+}
+
+.t-nums {
+    text-transform: uppercase;
+    display: flex;
+    position: sticky;
+    box-sizing: border-box;
+    padding-top: 11px;
+    padding-right: 99px;
+    justify-content: flex-end;
+    width: 100%;
+    margin: -45px 85px;
+    font-size: 12px;
+}
+
+.emergency {
+    margin: 16px 36px;
+    color: #1F2B6C;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.contct {
+    color: #159EEC;
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+.work-hours {
+    color: #1F2B6C;
+    margin: 16px 36px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.time {
+    color: #159EEC;
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+.Location {
+    margin: 16px 36px;
+    color: #1F2B6C;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.place {
+    color: #159EEC;
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+/* navbar */
+
+.nav {
+    background-color: #1F2B6C;
+    padding: 19px;
+    display: block;
+    padding-left: 207px;
+    margin: -10px 0px;
+    font-size: 15px;
+    justify-content: flex-start;
+}
+
+.nav a {
+    color: #FCFEFE;
+    text-decoration: none;
+    margin: auto;
+    font-family: 'Work Sans', sans-serif;
+    padding: 18px;
+}
+
+.nav a:hover {
+    background-color: #159EEC;
+    border-radius: 50px;
+    padding: 10px;
+    color: #1F2B6C;
+    transition-duration: 2s;
+}
+
+.nav a:active {
+    color: #1F2B6C;
+}
+
+.nav button {
+    background-color: #BFD2F8;
+    float: right;
+    margin-right: 187px;
+    border-radius: 50px;
+    padding-bottom: 12px;
+    padding-top: 10px;
+    padding-left: 29px;
+    padding-right: 31px;
+    margin-top: -9px;
+    color: #1F2B6C;
+    font-weight: 550;
+    font-size: 12px;
+    border: none;
+}
+
+.nav button:hover {
+    background-color: #159EEC;
+    transition-duration: 2s;
+    color: white;
+}
+
+.seone {
+    background-image: url(section-1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 9px 0px;
+    padding: 133px 251px;
+}
+
+.seone h5 {
+    color: #159EEC;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Work Sans';
+    display: initial;
+    letter-spacing: 3px;
+}
+
+.seone p {
+    color: #1F2B6C;
+    font-family: 'Yeseva One';
+    font-size: 36px;
+    font-weight: 600;
+    margin: 1px 0px;
+}
+
+.seone button {
+    background-color: #BFD2F8;
+    border-radius: 50px;
+    padding: 8px 19px;
+    margin: 16px 0px;
+    font-size: 16px;
+    font-family: 'work sans';
+    color: #1F2B6C;
+    font-weight: 600;
+    border: none;
+}
+
+.seone button:hover {
+    background-color: #159EEC;
+    transition-duration: 2s;
+    color: white;
+}
+
+.sectwo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+}
+
+.sectwo-boxone p,
+.sectwo-boxtwo p,
+.sectwo-boxthree p {
+    text-align: left;
+    padding: 14px 20px;
+    color: white;
+}
+
+
+.sectwo-boxone {
+    background-color: #1F2B6C;
+    border-radius: 7px;
+    text-align: center;
+    width: 327px;
+    margin: -40px 24px;
+}
+
+.sectwo-boxone:hover {
+    box-shadow: 0 15px 9px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 1s;
+
+}
+
+.sectwo-boxtwo:hover {
+    box-shadow: 0 15px 9px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 1s;
+
+}
+
+.sectwo-boxthree:hover {
+    box-shadow: 0 15px 9px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 1s;
+
+}
+
+.sectwo-boxtwo {
+    background-color: #159EEC;
+    border-radius: 7px;
+    text-align: center;
+    width: 327px;
+    margin: -40px 24px;
+}
+
+.sectwo-boxthree {
+    background-color: #BFD2F8;
+    width: 327px;
+    margin: -40px 24px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.secthree {
+    text-align: center;
+    padding: 51px 0px;
+}
+
+.secthree h4 {
+    color: #159EEC;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin-top: 76px;
+    padding: 0px;
+}
+
+.secthree h3 {
+    color: #1F2B6C;
+    text-transform: capitalize;
+    font-size: 28px;
+    margin: -11px;
+    font-family: 'yeseva one';
+    letter-spacing: 1px;
+}
+
+.secthree p {
+    text-transform: capitalize;
+    font-family: 'work sons';
+    font-size: 14px;
+    margin: 23px;
+    letter-spacing: 1px;
+}
+
+.learnmore {
+    text-decoration: none;
+    color: #159EEC;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.bgclass img {
+    background-size: cover;
+    width: 1103px;
+    margin: 19px 90px;
+    height: 258px;
+    padding: 0px;
+}
+
+.secfour {
+    text-align: center;
+
+}
+
+.secfour h4 {
+    color: #159EEC;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin: 12px;
+}
+
+.secfour h3 {
+    color: #1F2B6C;
+    font-weight: 600;
+    font-family: "yeseva sans";
+    margin: 0px;
+    font-size: 34px;
+}
+
+.secfourmenu {
+    height: 363px;
+    display: flex;
+    width: 123px;
+    flex-direction: column;
+    margin-left: 228px;
+    margin-top: 17px;
+    text-align: center;
+}
+
+.secfourmenu p{
+   background-color: white;
+    width: 70px;
+    border: 1px;
+    border: 1px solid gray;
+    padding: 37px;
+    margin: 0px;
+    font-size: 13px;
+    color: #159EEC;
+    
+}
+.secfourmenu p:hover{
+    background-color: #1F2B6C;
+    transition-duration: 2s;
+    color: #BFD2F8 ;
+   
+}
+
+.secfourcontent{
+    text-align: center;
+    display: block;
+    margin-top: -325px;
+    margin-left: -295px;
+}
+
+.secfourcontent h3{
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.secfourcontent h5{
+    display: inline-block;
+    padding: 4px 45px;
+    margin: 5px -21px;
+    font-weight: 500;
+    text-align: left;
+    font-size: 14px;
+}
+.secfourcontent li::marker{
+    color: #159EEC;   
+    font-size: 26px;
+}
+.secfourcontent p{
+    padding: 8px 0px;
+    width: 391px;
+    font-size: 13px;
+    font-family: system-ui;
+    font-weight: 500;
+    text-align: left;
+    height: 77px;
+    margin: 0px 733px;
+}
+.img{
+    width: 170px;
+    margin: -24rem 72rem;
+    height: 170px;
+    background-image: url(sec.3.jpg);
+    background-position-x: center;
+}
+.imgtwo{
+    width: 170px;
+    margin: 28rem 72rem;
+    height: 170px;
+    background-image: url(sec.3.jpg);
+    background-position-x: right;
+    display: inline-block;
+}
+.secfive{
+    margin: -377px 473px;
+    display: block;
+    text-align: center;
+}
+.secfive p{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    color: #159EEC;
+    margin-top: 25px;
+    font-weight: 700;
+}
+.secfive h4{
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 1px;
+    color: #1F2B6C;
+    font-size: 27px;
+}
+.secfivegrid{
+    margin: 382px;
+    display: grid;
+     grid-template-columns: auto auto auto auto;
+     margin-left: 378px;
+     margin-right: 378px;
+     padding: 15px;
+
+}
+.secfivegrid div{
+    font-size: smaller;
+    border-radius: 7px;
+    text-align: center;
+    padding: 54px 24px;
+}
+
+.secfivegrid div:hover{
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.secsix{
+    width: 1522px;
+    display: block;
+    height: 407px;
+    margin-top: -365px;
+    margin-left: 17px;
+    background-image: url(https://www.shutterstock.com/image-photo/medical-physician-doctor-man-over-600w-314454617.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+.secsixcontent{
+    display: block;
+    margin-left: 279px;
+    margin-top: 148px;
+    width: 482px;
+    height: 171px;
+}
+
+.secsixcontent h1{
+    color: #159EEC;
+    margin: 0px -1px;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: initial;
+}
